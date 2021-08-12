@@ -1,0 +1,165 @@
+ul {
+    list-style-type: style;
+    margin: 0;
+    padding: 0;
+    color:darkcyan;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+li {
+    display: inline;
+    color:darkcyan;
+}
+
+.logo{
+  border-top: 1px solid #000;
+  border-right:1px solid #000;
+  border-left:1px solid #000;
+  border-bottom:1px solid #000;
+  padding-bottom: 10px;
+  background-size: cover;
+}
+.container{
+  position: relative;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay{
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; 
+  width: 98%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 35px;
+  padding: 20px;
+  text-align: center;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.profile{
+  border-radius: 50%;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+.h51{
+  text-align: center;
+  border-bottom: 1px solid darkcyan;
+  border-width: 2px;
+  color: darkcyan;
+  padding-bottom: 20px;
+}
+
+.line{
+  width   : 200px;
+  height  : 50px;   
+  position: relative;
+  margin: 20px auto;
+
+  color:#726E97;
+}
+
+h4{
+  padding-top: 10px;
+  text-align: center;
+  color: darkcyan;
+}
+
+h6{
+  text-align: center;
+  color: darkcyan;
+  padding-bottom: 10px;
+  margin-left: 30px;
+}
+
+.img2{
+  border-radius: 25%;
+  padding: 10px;
+  height: 300px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img3{
+  border-radius: 25%;
+  padding: 10px;
+  height: 300px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.context{
+  padding-top: 10px;
+  display: block;
+}
+
+.h52{
+  padding-top: 10px;
+  text-align: center;
+  border-top: 1px solid darkcyan;
+  border-width: 2px;
+  color: darkcyan;
+  padding-bottom: 10px;
+  font-size: 40px;
+}
+
+.line2{
+  width   : 200px;
+  height  : 50px;   
+  margin: 20px auto;
+}
+
+.container_fluid{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  border-top: 1px solid #000;
+  border-right:1px solid #000;
+  border-left:1px solid #000;
+  border-bottom:1px solid #000;
+}
+
+.gallery{
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.gallery img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .gallery{
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
